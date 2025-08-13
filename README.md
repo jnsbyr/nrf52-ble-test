@@ -2,6 +2,12 @@
 
 Ever wondered what Bluetooth "Long Range" Mode (coded PHY) is about? This test project for the nRF52 MCU will show the pros and cons.
 
+---
+
+**This projects builds on a [modified version](https://github.com/jnsbyr/Adafruit_nRF52_Arduino/tree/feature/extended-advertising/libraries/Bluefruit52Lib/) of the Adafruit Bluefruit nRF52 Library from 2021, because Bluefruit did not support Bluetooth coded PHY mode. The Bluefruit code has seen several new releases since then, but neither has my PR been integrated nor was coded PHY mode added in another way at the time of writing. Therefore I recommend using Zephyr instead of Bluefruit for coded PHY mode.**
+
+---
+
 ### Table of contents
 
 [1. Motivation](#motivation)  
